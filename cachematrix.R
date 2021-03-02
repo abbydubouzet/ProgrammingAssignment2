@@ -15,7 +15,7 @@ makeCacheMatrix <- function(mtrxOriginal = matrix()) {
         # Gets value of mtrxOriginal
         get <- function() mtrxOriginal
         # Sets the inverse of mtrxInverse
-        setInverse <- function(mean) mtrxInverse <<- mean
+        setInverse <- function(inverse) mtrxInverse <<- inverse
         # Gets the inverse of mtrxInverse
         getInverse <- function() mtrxInverse
         # Creates an object through a returned list
